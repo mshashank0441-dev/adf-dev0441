@@ -1,0 +1,15 @@
+{
+	"name": "df-shashank",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "453d96b7-1622-4e02-bac6-81d393713435",
+		"tenantId": "2004fb5e-d1cd-444f-911b-391c5bfb563b"
+	}
+}
