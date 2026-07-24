@@ -1,0 +1,13 @@
+{
+	"name": "adf-shank-ade",
+	"properties": {
+		"parameters": {
+			"adf": {
+				"type": "string"
+			}
+		},
+		"annotations": [
+			"shank"
+		]
+	}
+}
