@@ -1,0 +1,13 @@
+{
+	"name": "pipeline1",
+	"properties": {
+		"parameters": {
+			"adf": {
+				"type": "string"
+			}
+		},
+		"annotations": [
+			"adf"
+		]
+	}
+}
