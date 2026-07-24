@@ -1,0 +1,23 @@
+{
+	"name": "adf-trigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "adf-shank-ade",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/bc815c49-b429-4ae8-88de-3f53130fe6d3/resourceGroups/rg-shashank/providers/Microsoft.Storage/storageAccounts/sgshashank",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
